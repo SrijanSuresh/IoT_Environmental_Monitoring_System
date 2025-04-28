@@ -58,7 +58,7 @@ This repository contains the code and documentation for a **distributed IoT envi
 
 - **`lcd.ino`**: Reads DHT11, publishes `temp` and `humidity`, displays on LCD.
 - **`led.ino`**: Reads MQ-135, publishes `airquality`, updates NeoPixel ring.
-- **`light.ino`**: Reads LDR, publishes `lightintensity`, controls servo, receives noise over Serial.
+- **`photo.ino`**: Reads LDR, publishes `lightintensity`, controls servo, receives noise over Serial.
 - **`noise.ino`**: Reads KY-038, publishes `noiselevel` to Arduino 3 via Serial, controls buzzer.
 
 ## ⚙️ Configuration
